@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Mobile suite">
+    <test name="Mobile Tests">
+        <parameter name="PlatformName" value="mobile" />
+    <!--
+           <packages>
+               <package name = "sanity"></package>
+           </packages>
+           <classes>
+           -->
+    <classes>
+    <class name="sanity.Got_It"/>
+    <!--
+           <methods>
+               <include name = "[name]]"/>   tag that doesn't include content can end with
+               <exclude name = "[name]"/>
+           </methods>
+   -->
+</classes>
+</test>
+</suite>
+
+
+

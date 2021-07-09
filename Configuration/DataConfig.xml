@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!-- Timeout -->
+    <TimeOut>3</TimeOut>
+
+    <!-- mobile -->
+    <UDID>2c7a8e6708017ece</UDID>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+    <gotIt_APPPackage>com.gotit</gotIt_APPPackage>
+    <gotIt_APPActivity>.MainActivity</gotIt_APPActivity>
+
+    <!-->  data driven testing -->
+    <DDTUsers>.\DDTFiles\users.csv</DDTUsers>
+    <DDTTasks>.\DDTFiles\tasks.csv</DDTTasks>
+
+</Environment>
